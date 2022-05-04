@@ -1,0 +1,40 @@
+<html>
+
+<head></head>
+
+<body bgcolor="#CCFFFF" text="#CC99CC" background="/DSWU/img/G4.jpg">
+    <h2>Insert user : คนสนใจ</h2>
+    <form action="insertuser.php" method="post" name="User">
+        <table border="1">
+            <tr>
+                <td>คำนำหน้า : </td>
+                <td><input type="text" name="prethname"></td>
+            </tr>
+            <tr>
+                <td>ชื่อ: </td>
+                <td><input type="text" name="emp_firstname"></td>
+            </tr>
+            <tr>
+                <td>นามสกุล: </td>
+                <td><input type="text" name="emp_lastname"></td>
+            </tr>
+            <tr>
+                <td>เบอร์โทร : </td>
+                <td><input type="number" name="emp_phone"></td>
+            </tr>
+            <tr>
+                <td>อีเมล : </td>
+                <td><input type="emailaddress" name="emp_email"></td>
+            </tr>
+            <tr>
+                <td>ที่อยู่ : </td>
+                <td><input type="text" name="emp_address"></td>
+            </tr>
+        </table>
+
+        <br>
+        <input type="submit" value="Insert User">
+    </form>
+</body>
+
+</html>
